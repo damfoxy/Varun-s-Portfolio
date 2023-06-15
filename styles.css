@@ -1,0 +1,290 @@
+/* styles.css */
+
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+@media only screen and (min-width: 370px) {
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header Styles */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+}
+
+
+.hero {
+  background-color: #222;
+  padding: 50px;
+  text-align: center;
+}
+
+.hero h2 {
+  color: #fff;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+/* About Me Styles */
+#about-me {
+  color: #333;
+  font-size: 18px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+#typing-cursor {
+  display: inline-block;
+  vertical-align: middle;
+  width: 8px;
+  height: 20px;
+  background-color: #333;
+  animation: blink-caret 0.75s infinite;
+}
+
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #fff;
+  }
+}
+
+/* Footer Styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+}
+
+/* Animations */
+.animate__animated {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+.animate__fadeInUp {
+  animation-name: fadeInUp;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.visible {
+  animation: blink-caret 0.75s infinite;
+}
+
+/* Name and Role Styles */
+#name {
+  font-size: 40px;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+#role {
+  font-size: 20px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+#role span {
+  color: #ff7f00; /* Update the color to a readable color on a black background */
+}
+
+  nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+   margin-top: 5%;
+ 
+}
+
+nav ul li {
+  display: inline-flex;
+  margin-right: 10px;
+
+ 
+
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 10px;
+
+  
+  
+}
+.link{
+  font-size: 18px;
+}
+}
+
+@media only screen and (min-width: 970px) {
+
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header Styles */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 10px;
+ 
+}
+
+/* Hero Styles */
+.hero {
+  background-color: #222;
+  padding: 50px;
+  text-align: center;
+}
+
+.hero h2 {
+  color: #fff;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+/* About Me Styles */
+#about-me {
+  color: #333;
+  font-size: 18px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+#typing-cursor {
+  display: inline-block;
+  vertical-align: middle;
+  width: 8px;
+  height: 20px;
+  background-color: #333;
+  animation: blink-caret 0.75s infinite;
+}
+
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #fff;
+  }
+}
+
+/* Footer Styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+}
+
+/* Animations */
+.animate__animated {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+.animate__fadeInUp {
+  animation-name: fadeInUp;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.visible {
+  animation: blink-caret 0.75s infinite;
+}
+
+/* Name and Role Styles */
+#name {
+  font-size: 40px;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+#role {
+  font-size: 20px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+#role span {
+  color: #ff7f00; /* Update the color to a readable color on a black background */
+}
+.menu-line{
+    height:3px;
+    width:20px;
+    background-color: darkslateblue;
+    margin-bottom: 3px;
+}
+
+.menu{
+    cursor:pointer;
+    display:none;   
+}
+}

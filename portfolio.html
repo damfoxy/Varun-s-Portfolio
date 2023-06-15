@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lakshmi Narayanan R - Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <nav>
+        <ul>
+          <li><a href="portfolio.html">Home</a></li>
+          <li><a href="experiences.html">Experiences</a></li>
+          <li><a href="skills.html">Skills</a></li>
+        </ul>
+         
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <h2>Lakshmi Narayanan R</h2>
+      <p id="role">Data Analyst / BI Developer</p>
+    </div>
+  </section>
+
+  <section id="about-me" class="animate__animated animate__fadeInUp">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>
+        <span id="typing-text"></span>
+        <span id="typing-cursor"></span>
+      </p>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2023 Lakshmi Narayanan R</p>
+    </div>
+  </footer>
+  <script>
+    const menu = document.querySelector('.menu')
+    const menuList = document.querySelector('nav ul')
+    menu.addEventListener('click',()=>{
+        menuList.classList.toggle('showmenu')
+    })
+</script>
+
+  <script src="/home/varun/varunport/typing.js"></script>
+</body>
+
+</html>
